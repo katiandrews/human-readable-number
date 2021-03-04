@@ -46,28 +46,6 @@ module.exports = function toReadable (number) {
       }
       return hundred + ' ' + decimal + ' ' + digit;
     }
-
-
-
-    /*
-  for (i = number.length - 1; i >= 0; i--) {
-    if (i === number.length - 1) {
-      digit = digits[number[i]];
-      console.log (digit);
-    }
-    
-    if (i === number.length - 2) {
-      decimal = decimals[number[i]];
-      console.log (decimal);
-    }
-
-    if (i === number.length - 3) {
-      hundread = digits[number[i]];
-      console.log (hundread);
-    }
-  }
-  return  hundread + ' hundred ' + decimal + ' ' + digit;
-  */
   
 }
 
